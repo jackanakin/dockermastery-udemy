@@ -1,0 +1,1 @@
+docker container run --name healthypg1 -d --health-cmd="pg_isready -U postgres || exit 1" -e POSTGRES_PASSWORD=mypasswordpg postgres
