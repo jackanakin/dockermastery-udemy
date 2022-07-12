@@ -10,3 +10,8 @@
 -   * Make it work in linux env.
 -   * Make it lean/smallest possible
 -   * Make it scalable
+
+-   Kubernets:
+    * Deployment auto creates ReplicaSet
+    * kubectl run -> single node, to delete kubectl delete pod my-pod
+    * kubectl create deployment --image=httpd my-apache -> similar to docker service
